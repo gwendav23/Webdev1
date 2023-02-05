@@ -21,16 +21,21 @@
 
 				<ListErrors errors={form?.errors} />
 
+
+
 				<form use:enhance method="POST">
 					<fieldset class="form-group">
 						<input
-							class="form-control form-control-lg"
-							name="email"
-							type="email"
-							required
-							placeholder="Email"
+								class="form-control form-control-lg"
+								name="username"
+								type="text"
+								required
+								placeholder="Your Name"
 						/>
 					</fieldset>
+
+
+
 					<fieldset class="form-group">
 						<input
 							class="form-control form-control-lg"

@@ -31,15 +31,7 @@
 							placeholder="Your Name"
 						/>
 					</fieldset>
-					<fieldset class="form-group">
-						<input
-							class="form-control form-control-lg"
-							name="email"
-							type="email"
-							required
-							placeholder="Email"
-						/>
-					</fieldset>
+
 					<fieldset class="form-group">
 						<input
 							class="form-control form-control-lg"

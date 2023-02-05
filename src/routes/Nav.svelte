@@ -40,6 +40,13 @@
 						Sign up
 					</a>
 				</li>
+
+				<li class="nav-item">
+					<a href="/locations" class="nav-link" class:active={$page.url.pathname === '/locations'}>
+						Locations
+					</a>
+				</li>
+
 			{/if}
 		</ul>
 	</div>
