@@ -24,8 +24,8 @@
 				</li>
 
 				<li class="nav-item">
-					<a href="/profile/@{$page.data.user.username}" class="nav-link">
-						{$page.data.user.username}
+					<a href="/locations" class="nav-link" class:active={$page.url.pathname === '/locations'}>
+						Locations
 					</a>
 				</li>
 			{:else}
