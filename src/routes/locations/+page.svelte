@@ -41,7 +41,7 @@
 								<tr>
 									<th>{location.filmName}</th>
 									<th>{location.filmProducerName}</th>
-									<button on:click={() => handleClick(location._id,location.filmName,location.filmType,location.filmProducerName,location.filmDirectorName,location.address, location.year)}> Détails </button>
+									<button on:click={() => handleClick(location._id,location.filmName,location.filmType,location.filmProducerName,location.filmDirectorName,location.address, location.year)}> + info</button>
 
 								</tr>
 							{/each}
@@ -62,7 +62,7 @@
 	}
 	button{
 		display: inline-block;
-		background-color: #381506 ;
+		background-color: #34cf46 ;
 		border-radius: 18px;
 		border: 4px  #cccccc;
 		color: #eeeeee;
@@ -91,7 +91,7 @@
 	#contenu th{
 		border: 9px  ;
 		font-weight: 300 ;
-		color: #4D5656;
+		color:#094d11;
 		padding: 8px;
 		text-align: left;
 	}
@@ -99,7 +99,7 @@
 		width: 100%;
 	}
 	th {
-		background-color: #E7F7EF;
+		background-color: #b6e0bb;
 	}
 </style>
 

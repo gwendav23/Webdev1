@@ -34,13 +34,13 @@
 				<div>
 					<table>
 						<tr>
-							<th>id</th>
-							<th>filmName</th>
-							<th>filmType</th>
-							<th>filmProducerName</th>
-							<th>filmDirectorName</th>
-							<th>address</th>
-							<th>year</th>
+							<th>Id</th>
+							<th>Title</th>
+							<th>Type</th>
+							<th>Producer</th>
+							<th>Director</th>
+							<th>Address</th>
+							<th>Year</th>
 
 						</tr>
 						<tr>
@@ -62,17 +62,18 @@
 <style>
 	h1{
 		text-align: center;
-		padding: 18px;
+		padding: 14px;
 		width: auto;
 		height: 137px;
-		margin-left: 26REM;
+		margin-left: 20REM;
+
 	}
 	table {
 		margin: auto;
 	}
 	th {
 		text-align: center;
-		background-color: #D4EFDF;
+		background-color: #34cf46;
 		border-spacing: 25px;
 		font-weight: 900;
 		border-style: groove;
@@ -83,7 +84,7 @@
 		margin-right: 50rem;
 	}
 	body {
-		background-color: #f2d689;
+		background-color: #b6e0bb;
 	}
 	td {
 		background-color: #E9F7EF;
